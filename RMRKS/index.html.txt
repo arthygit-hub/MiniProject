@@ -1,0 +1,107 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+
+<style>
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+        header{
+            background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(bg1.jpg);
+            height: 100vh;
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-attachment:fixed;
+        }
+        ul
+        {
+            float: left;
+            list-style-type:none;
+            margin-top: 65px;
+        }
+        ul li{
+            display:inline-block;
+        }
+        ul li a{
+            text-decoration: none;
+            color: #fff;
+            padding: 5px 20px;
+            border:1px solid #fff;
+            transition:0.6s ease;
+        }
+        ul li a:hover{
+            background-color: #fff;
+            color: #000;
+        }
+        ul li.active a{
+            background-color: #fff;
+            color:#0000;
+        }
+        .title
+        {
+            position: absolute;
+            margin-top:10%;
+            margin-left:65%;
+            transform:translate(-95%,-95%);
+        }
+        .title h1{
+            color:rgb(177, 224, 238);
+            font-size: 22px;
+        }
+        .abstract
+        {
+            position:absolute;
+            top:55%;
+            left:50%;
+            transform: translate(-50%,-50%);
+            font-family:'Times New Roman';
+            font-size: 20px;
+        }
+        .abstract p{
+            color:#fff;
+        }
+        .abstract h3{
+            color: rgb(112, 216, 167);
+        }
+    
+
+.container,.panel{padding:0.01em 16px}.w3-panel{margin-top:16px;margin-bottom:16px}
+.xlarge{font-size:24px!important}.xxlarge{font-size:36px!important}.xxxlarge{font-size:48px!important}.jumbo{font-size:64px!important}
+
+    </style>
+</head>
+<body>
+    <header>
+        <div>
+            <div class="container xlarge">
+                <ul>
+                   <li>
+                        <a href="login.html">Admin</a>
+                    </li>
+                <br>
+                <br>
+                    <li>
+                        
+                        <a href="customer.html">User</a>
+                        
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="title">
+            <h1>ROAD MAINTENANCE AND RECORD KEEPING SYSTEM</h1>
+        </div>
+        <div class="abstract">
+            <h3>ABOUT ROAD MAINTENANCE AND RECORD KEEPING SYSTEM :</h3>
+            <p>The maintenance of rural and urban roads is becoming an increasing challenge as a result of the rapid growth of the network. A large amount of money is going to waste due to irregularity and improper approach. Comprehensive maintenance planning with initial construction details, utilization of fund, site inspection records, maintenance logs, existing practice and knowledge of different road patterns are the major challenges in record keeping. So this application would be a solution for maintaining all the above mentioned details along with the provision of maps showing quality of roads(existence of pot holes, damaged roads, etc.,) and a facility to complain about the roads with a feedback system. The application will be an effective tool as it will help save time and provide valuable information thus avoiding the wastage of public resource.
+            </p>
+        </div>
+    </header>
+</body>
+</html>
+
